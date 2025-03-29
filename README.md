@@ -14,7 +14,7 @@ By the end of this course, you’ll be equipped to **integrate vector databases 
 
 ## Course Contents  
 
-### [**1. Introduction to Vector Databases**]()  
+### [**1. Introduction to Vector Databases**](https://github.com/michaWorku/Vector-Databses-Embeddings-Applications/blob/main/L1_Embeddings.ipynb)  
 - **What are vector databases?**  
   - Applications in **NLP, image recognition, recommender systems, and semantic search**.  
   - Role in **LLM applications and Retrieval-Augmented Generation (RAG)**.  
@@ -22,14 +22,14 @@ By the end of this course, you’ll be equipped to **integrate vector databases 
   - How vector embeddings **capture meaning**.  
   - Representing text and images in a machine-readable format.  
 
-### [**2. Obtaining Vector Representations of Data**]()  
+### [**2. Obtaining Vector Representations of Data**](https://github.com/michaWorku/Vector-Databses-Embeddings-Applications/blob/main/L2_kNN.ipynb)  
 - **Creating Embeddings**  
   - **Image embeddings** using **Variational Autoencoders (VAE)**.  
   - **Text embeddings** with **Transformer-based models**.  
 - **Measuring similarity between embeddings**  
   - **Euclidean Distance (L2), Manhattan Distance (L1), Dot Product, and Cosine Similarity**.  
 
-### [**3. Searching for Similar Vectors**]()  
+### [**3. Searching for Similar Vectors**](https://github.com/michaWorku/Vector-Databses-Embeddings-Applications/blob/main/L3_approximate_nearest_neighbours.ipynb)  
 - **K-Nearest Neighbors (KNN) Search**  
   - **Brute-force search algorithm**: Compute distances between query and stored vectors.  
   - **Runtime complexity: O(dN)**.  
@@ -38,14 +38,14 @@ By the end of this course, you’ll be equipped to **integrate vector databases 
   - **Hierarchical Navigable Small World (HNSW) algorithm**: **O(log(N)) search time complexity**.  
   - **Efficient indexing for large-scale vector searches**.  
 
-### [**4. Vector Databases in Practice**]()  
+### [**4. Vector Databases in Practice**](https://github.com/michaWorku/Vector-Databses-Embeddings-Applications/blob/main/L4_Objects_Vectors.ipynb)  
 - **CRUD operations** (Create, Read, Update, Delete) in vector databases.  
 - **Working with Weaviate**  
   - **Importing data** and generating embeddings.  
   - **Running vector searches** using embeddings.  
   - **Filtering results** based on similarity scores.  
 
-### [**5. Sparse, Dense, and Hybrid Search**]()  
+### [**5. Sparse, Dense, and Hybrid Search**](https://github.com/michaWorku/Vector-Databses-Embeddings-Applications/blob/main/L5_HybridSearch.ipynb)  
 - **Dense Search (Semantic Search)**  
   - Uses **vector embeddings** to find semantically similar data.  
   - **Challenges:** Poor performance on **out-of-domain data, serial numbers, and keyword-based queries**.  
@@ -55,7 +55,7 @@ By the end of this course, you’ll be equipped to **integrate vector databases 
   - **Combining sparse and dense search** for better accuracy.  
   - Uses **scoring systems** to rank results effectively.  
 
-### [**6. Building AI Applications with Vector Databases**]()  
+### [**6. Building AI Applications with Vector Databases**](https://github.com/michaWorku/Vector-Databses-Embeddings-Applications/blob/main/L6_Multilingual_RAG_Search.ipynb)  
 - **Multilingual Search**  
   - Embeddings enable **cross-language retrieval**.  
 - **Retrieval-Augmented Generation (RAG)**  
@@ -71,12 +71,12 @@ By the end of this course, you’ll be equipped to **integrate vector databases 
   4. Generate a **context-aware response using an LLM**.  
 
 ## Notebooks  
-1. **[Creating Embeddings]()** – Generate vector embeddings for images and text.  
-2. **[KNN]()** – Implement KNN. 
-3. **[ANN]()** – Implement ANN. 
-4. **[Vector Databases]()** – Store and retrieve embeddings with Weaviate.  
-5. **[Sparse, Dense & Hybrid Search]()** – Compare different search methods.  
-6. **[Building AI Applications]()** – Implement **multilingual search & RAG**.  
+1. **[Creating Embeddings](https://github.com/michaWorku/Vector-Databses-Embeddings-Applications/blob/main/L1_Embeddings.ipynb)** – Generate vector embeddings for images and text.  
+2. **[KNN](https://github.com/michaWorku/Vector-Databses-Embeddings-Applications/blob/main/L2_kNN.ipynb)** – Implement KNN. 
+3. **[ANN](https://github.com/michaWorku/Vector-Databses-Embeddings-Applications/blob/main/L3_approximate_nearest_neighbours.ipynb)** – Implement ANN. 
+4. **[Vector Databases](https://github.com/michaWorku/Vector-Databses-Embeddings-Applications/blob/main/L4_Objects_Vectors.ipynb)** – Store and retrieve embeddings with Weaviate.  
+5. **[Sparse, Dense & Hybrid Search](https://github.com/michaWorku/Vector-Databses-Embeddings-Applications/blob/main/L5_HybridSearch.ipynb)** – Compare different search methods.  
+6. **[Building AI Applications](https://github.com/michaWorku/Vector-Databses-Embeddings-Applications/blob/main/L6_Multilingual_RAG_Search.ipynb)** – Implement **multilingual search & RAG**.  
 
 ## Getting Started  
 1. Install dependencies and set up your environment.  
